@@ -56,6 +56,15 @@
                     </archive>
                 </configuration>
             </plugin>
+            <!--Maven 执行插件-->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <mainClass>cool.wangshuo.template.MainApp</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
